@@ -15,6 +15,8 @@
 		3F68A68829C4661D000028AC /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F68A68729C4661D000028AC /* LocationManager.swift */; };
 		3F68A68F29C46ED9000028AC /* LocationSearchActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F68A68E29C46ED9000028AC /* LocationSearchActivationView.swift */; };
 		3F68A69129C47052000028AC /* MapViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F68A69029C47052000028AC /* MapViewActionButton.swift */; };
+		3F68A69329C471DE000028AC /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F68A69229C471DE000028AC /* LocationSearchView.swift */; };
+		3F68A69529C4756D000028AC /* LocationSearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F68A69429C4756D000028AC /* LocationSearchResultCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		3F68A68929C46756000028AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3F68A68E29C46ED9000028AC /* LocationSearchActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchActivationView.swift; sourceTree = "<group>"; };
 		3F68A69029C47052000028AC /* MapViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewActionButton.swift; sourceTree = "<group>"; };
+		3F68A69229C471DE000028AC /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
+		3F68A69429C4756D000028AC /* LocationSearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResultCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				3F68A68E29C46ED9000028AC /* LocationSearchActivationView.swift */,
+				3F68A69229C471DE000028AC /* LocationSearchView.swift */,
+				3F68A69429C4756D000028AC /* LocationSearchResultCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -239,12 +245,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F68A69329C471DE000028AC /* LocationSearchView.swift in Sources */,
 				3F68A68829C4661D000028AC /* LocationManager.swift in Sources */,
 				3F68A69129C47052000028AC /* MapViewActionButton.swift in Sources */,
 				3F68A66F29BF0EC8000028AC /* UberApp.swift in Sources */,
 				3F68A68629C46392000028AC /* UberMapViewRepresentable.swift in Sources */,
 				3F68A68429C46333000028AC /* HomeView.swift in Sources */,
 				3F68A68F29C46ED9000028AC /* LocationSearchActivationView.swift in Sources */,
+				3F68A69529C4756D000028AC /* LocationSearchResultCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
