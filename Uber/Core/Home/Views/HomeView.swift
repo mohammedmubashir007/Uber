@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @State private var showLocationSearchField = false
+    @State private var showLocationSearchView = false
     
     var body: some View {
         
@@ -17,22 +17,22 @@ struct HomeView: View {
             UberMapViewRepresentable()
                 .ignoresSafeArea()
             
-            if showLocationSearchField {
-                LocationSearchView()
+            if showLocationSearchView {
+                LocationSearchView(showLocationSearchView: $showLocationSearchView)
             } else {
                 LocationSearchActivationView()
                     .padding(.top,72)
                     .onTapGesture {
                         
                         withAnimation(.spring()){
-                            showLocationSearchField.toggle()
+                            showLocationSearchView.toggle()
                             
                         }
                         
                     }
             }
             
-            MapViewActionButton(showLocationSearchView: $showLocationSearchField)
+            MapViewActionButton(showLocationSearchView: $showLocationSearchView)
                 .padding(.leading)
                 .padding(.top,4)
         }
